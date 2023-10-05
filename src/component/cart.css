@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+/* ==============================.cart-head================================= */
+.cart-head {
+    height: 15vh;
+    border: 1px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-head>h1 {
+    /* font-family: 'The Nautigal', cursive; */
+    font-family: 'Lora', serif;
+}
+
+.cart-head>h4 {
+    font-family: 'The Nautigal', cursive;
+    color: gold;
+    position: relative;
+    left: -15%;
+
+}
+
+/* ===================================================================== */
+.cart-main {
+    height: 30vh;
+    border: 0px solid;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 100, 0, 0.183);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 100, 0, 0.422);
+
+}
+.cart-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'The Nautigal', cursive;
+    height: 30vh;
+    border: 0px solid;
+    margin-top: 3%;
+    background-color: rgba(0, 100, 0, 0.183);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 100, 0, 0.422);
+
+}
+.hear{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+}
+.cart-m>p{
+    font-size: 70px;
+}
+.cart-main>img {
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+.cart-contain {
+    height: 90%;
+    width: 50%;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+}
+
+.cart-main>button {
+    font-family: 'Lora', serif;
+    padding: 0.5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0px solid white;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+
+.cartrow2 {
+    margin-top: 2%;
+}
+
+.cart-payment {
+    height: 40vh;
+    border: 0px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Lora', serif;
+    background-color: rgba(0, 100, 0, 0.183);
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 100, 0, 0.422);
+}
+
+.cart-payment>button {
+    width: 20%;
+    padding: 0.5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0px solid white;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+}
+.payment{
+    width: 120%;
+    padding: 5%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0px solid white;
+    box-shadow: 0px 0px 10px 2px rgb(255, 255, 255);
+
+}
+.cart-payment>input{
+    border: 0PX SOLID;
+    border-radius: 4px;
+    width: 35%;
+
+}
+.cart-payment>textarea{
+    border: 0PX SOLID;
+    border-radius: 10px;
+}

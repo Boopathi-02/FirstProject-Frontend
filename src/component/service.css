@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.headdiv{
+    background-image: url("../imges/Dec1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.headdiv1 {
+    height: 80vh;
+    /* background-position: -0px; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Lora', serif;
+    animation: headdiv;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes headdiv {
+    from{
+        transform: translateX(-600px);
+        
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+.headdiv1>p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.font{
+    font-size: 300%;
+    color: white;
+}
+
+
+.heading1 {
+    font-family: 'The Nautigal', cursive;
+    text-shadow: 1px 3px goldenrod;
+    color: white;
+    font-size: 70px;
+    animation: header 1.5s;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes header{
+    from{
+        transform: translatey(300%);
+    }
+    to{
+        transform: translatey(0);
+    }
+}
+
+.headdiv2{
+    font-family: 'Lora', serif;
+    height:20vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.headdiv2>h2{
+    font-family: 'The Nautigal', cursive;
+    color: goldenrod;
+    position: absolute;
+
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.condiv1{
+    background-image: url("../imges/dec3.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.condiv1>a{
+    text-decoration: none;
+}
+
+
+.condiv2{
+    background-image: url("../imges/dec2.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.condiv2>a{
+    text-decoration: none;
+}
+
+
+.condiv3{
+    background-image: url("../imges/dec4.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condiv3>a{
+    text-decoration: none;
+}
+
+
+.hoverdiv{
+    height: 65vh;
+    width: 20vw;
+    justify-content: center;
+    opacity: 0;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverdiv>h1{
+    font-family: 'Lora', serif;
+    color: black;
+    text-shadow: 1px 1px goldenrod;
+}
+
+
+.hoverdiv:hover{
+    opacity: 1;
+    z-index: 1;
+}
+
+.condiv4{
+    background-image: url("../imges/dec5.jpg");
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condiv4>a{
+    text-decoration: none;
+}

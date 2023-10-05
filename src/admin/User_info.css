@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  font-family: 'Lora', serif;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+
+
+.appbg {
+  /* background-color:rgb(204, 204, 204); */
+  background-color: rgba(84, 84, 84, 0.127);
+
+}
+
+.div1 {
+  /* background: linear-gradient(to right, #FFB6C1, #FF69B4, #ee2992, #C71585); */
+
+  background-color: #093e40;
+  color: #ae8514;
+
+  /* background: linear-gradient(to left, #f9f5f6,  #E29DAB);
+background-color: white; */
+  /* background-color: #E29DAB; */
+
+}
+
+/* .div2{
+     background: linear-gradient(to right, #B0E0E6, #87CEEB, #2d9cf6, #0a7def); 
+    /* background: linear-gradient(to right, #00FF00, #66FF00, #CCFF00, #FFFF00); }*/
+
+
+
+
+.btn1 {
+
+  width: 10%;
+  padding: 5px;
+  cursor: pointer;
+  display: block;
+  border: solid 0px;
+  border-radius: 10px;
+  background-color: #ae8514ad;
+  color: #fff;
+  font-family: 'Lora', serif;
+
+
+}
+.UPBTN{
+  
+  width: 10%;
+  padding: 5px;
+  cursor: pointer;
+  display: block;
+  border: solid 0px;
+  border-radius: 10px;
+  background-color: #ae8514ad;
+  color: #fff;
+  font-family: 'Lora', serif;
+
+}
+.UPBTNn{
+  width: 5%;
+  padding: 5px;
+  cursor: pointer;
+  border: solid 0px;
+  border-radius: 10px;
+  background-color: #ae8514ad;
+  color: #fff;
+  font-family: 'Lora', serif;
+  margin-left: 95%;
+
+}
+
+
+.btn2 {
+
+  /* width: 10%;
+  height: 2%; */
+
+  background-color: #ae8514;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: #ae8514;
+
+
+  font-weight: bold;
+}
+
+.icon {
+  color: #ae8514;
+
+}
+
+.icon:hover {
+  color: #093e40;
+}
+
+thead {
+  background-color: #093e40;
+  color: #ae8514;
+
+  
+}
+
+tbody {
+  background-color: white;
+}
+
+h2 {
+  color: #ae8514;
+
+}
+
+
+input {
+  border: solid 1px #ae8514;
+}
+::placeholder{
+  text-align: center;
+}
+.ms{
+  width: 100%;
+  margin-left: 23%;
+}
+.projectbtm{
+  border: 0px solid;
+  padding: 5%;
+  border-radius: 5px;
+  color: white;
+  background-color: #ae8514;
+}

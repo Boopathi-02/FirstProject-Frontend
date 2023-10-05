@@ -1,0 +1,231 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.homeimg {
+    height: 100vh;
+    border: 0px solid;
+    background-image: url(../imges/imgm.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.words>h1 {
+    font-family: 'The Nautigal', cursive;
+    color: white;
+}
+
+.words {
+    width: 70%;
+    font-size: 350%;
+    color: goldenrod;
+    font-family: 'Lora', serif;
+}
+
+.wor {
+    animation: word;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    text-shadow: 2px 1px white;
+
+}
+
+@keyframes word {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.home2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 100, 0, 0.183);
+}
+
+.hometwo {
+    width: 50%;
+    /* font-family: 'Lora', serif;
+    font-size: 100%; */
+}
+
+.hometwo>p {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+
+}
+
+.font {
+    font-size: 500%;
+
+}
+
+.bird {
+    width: 20%;
+}
+
+/* ____________________________________________ */
+.home3 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(../imges/Screenshot\ 2023-08-10\ 161402.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.home3>h3 {
+    font-family: 'The Nautigal', cursive;
+    color: rgb(218, 165, 32);
+    position: absolute;
+    bottom: 100;
+
+}
+
+.home3>h1 {
+    font-family: 'Lora', serif;
+}
+
+/* ______________________________________ */
+.about1 {
+    height: 80vh;
+    background-color: rgba(0, 100, 0, 0.203);
+    text-align: center;
+}
+.about1>h3{
+    /* font-family: 'The Nautigal', cursive; */
+    font-family: 'DM Serif Display',serif;
+   
+}
+
+.imgone {
+    width: 20vw;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 235%;
+    /* z-index: 1; */
+}
+
+.imgtwo {
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    top: 239%;
+    left: 25%;
+
+}
+
+.imgthree {
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    top: 265%;
+    left: 75%;
+}
+
+.imgfour {
+    width: 25vw;
+    height: 20vh;
+    position: absolute;
+    top: 280%;
+    left: 30%;
+}
+
+.imgfive {
+    width: 25vw;
+    height: 20vh;
+    position: absolute;
+    top: 230%;
+    left: 67%;
+
+}
+
+/* ______________________________________________________ */
+.ro {
+    margin-top: 5%;
+    overflow: hidden;
+}
+
+.rev {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 100, 0, 0.203);
+    font-family: 'Lora', serif;
+    overflow: hidden;
+}
+
+.rev>h4 {
+    color: goldenrod;
+    font-family: 'The Nautigal', cursive;
+    position: absolute;
+    bottom:267px;
+}
+
+
+.btn>button {
+    border: 0px solid;
+    background-color: transparent;
+    font-size: xx-large;
+}
+.btn{
+    width: 200px;
+    justify-content: space-between;
+    border: 0px solid;
+}
+.revw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 100, 0, 0.203);
+}
+
+.rev1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    border: 0px solid;
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(255, 255, 255, 0.788);
+    border-radius: 10px 10px 10px 10px;
+    padding: 5%;
+}
+
+.rev1>h3 {
+    font-family: 'Lora', serif;
+    color: rgba(218, 165, 32, 0.648);
+}
+
+.arrow {
+    font-size: 150%;
+    color: goldenrod;
+}
+/* ============================================================ */
